@@ -2,11 +2,11 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Threading.Tasks;
+using VisualRoutinesLibrary.Models;
 
 namespace VisualRoutines.Data
 {
-    public class ApplicationDbContext:DbContext
+    public class ApplicationDbContext : DbContext
     {
             //need to generate the Microsoft.Entity Framework for the DbContext error
    
@@ -15,7 +15,9 @@ namespace VisualRoutines.Data
 
             //create database set
             public DbSet<Task> Tasks { get; set; }
+           // public DbSet<Goal> Goals { get; set; }
         }
 
-    }
+
+}
 

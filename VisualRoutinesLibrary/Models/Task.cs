@@ -1,13 +1,11 @@
-﻿using Google.Apis.Analytics.v3.Data;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+﻿using Microsoft.EntityFrameworkCore.Metadata.Internal;
+using System.ComponentModel.DataAnnotations;
 
-namespace VisualRoutines.Models
+namespace VisualRoutinesLibrary.Models
 {
     public class Task
     {
+        [Key]
         public int ID { get; set; }
         public string TaskName { get; set; }
 
