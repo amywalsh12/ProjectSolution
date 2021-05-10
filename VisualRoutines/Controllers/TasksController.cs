@@ -50,7 +50,7 @@ namespace VisualRoutines.Controllers
                 TaskName = bindingModel.TaskName,
                 Time = bindingModel.Time,
                 Description= bindingModel.Description,
-               PictureURL = "https://th.bing.com/th/id/OIP.uu_wA87qCD9dzSmrJ6p8eAHaDT?w=302&h=156&c=7&o=5&dpr=1.5&pid=1.7",
+                PictureURL = "https://th.bing.com/th/id/OIP.uu_wA87qCD9dzSmrJ6p8eAHaDT?w=302&h=156&c=7&o=5&dpr=1.5&pid=1.7",
                 //CreatedAt = DateTime.Now
             };
            
